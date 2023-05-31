@@ -1,0 +1,44 @@
+/* For Mobile Screens */
+@media only screen and (min-width: 375px) {
+  body {
+    background: #1c1a19;
+  }
+
+  #ToolBar {
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  #logo-placeholder {
+    padding: 10px 12px;
+    margin-left: 12px;
+    text-align: center;
+  }
+
+  #logo {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  #tool-Button {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    font-size: larger;
+    color: white;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
