@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 24px;
+    padding: 50px 24px;
     left: 0;
     top: 92px;
     background: #1c1a19;
@@ -46,7 +46,7 @@
     top: 120px;
     left: 24px;
     font-family: 'Crete Round', sans-serif;
-    font-size: 56px;
+    font-size: 28px;
     font-weight: 400;
     line-height: 64px;
     letter-spacing: 0.37px;
@@ -63,12 +63,19 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 13px;
     line-height: 32px;
     flex: none;
     order: 1;
     flex-grow: 0;
     color: #fff5e1;
+  }
+
+  #Contacts {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   #Service {
@@ -85,7 +92,11 @@
   }
 
   #bg-img {
-    margin-top: -55%;
+    margin-top: -65%;
     margin-right: -24px;
+    background-image: url("Background-Images/Illustration.png");
+    background-size: cover;
+    width: 190px;
+    height: 400px;
   }
 }
