@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 423px;
   }
 
   #logo-placeholder {
@@ -33,50 +34,58 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 120px 24px;
-    gap: 12px;
+    left: 0;
+    top: 92px;
     background: #1c1a19;
+    width: 375px;
   }
 
   #Name {
     width: 327px;
     height: 124px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
+    top: 120px;
+    left: 24px;
+    font-family: 'Crete Round', sans-serif;
     font-size: 56px;
+    font-weight: 400;
     line-height: 64px;
-    color: #ff6b00;
     letter-spacing: 0.37px;
-    margin: 0;
-    margin-left: 24;
-    border: solid;
+    text-align: left;
+    color: #ff6b00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   #Status {
     width: 327px;
     height: 27px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #FFF5E1;
-    margin: 0;
-    margin-left: 24;
-    border: solid;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #fff5e1;
   }
 
-  #Services {
-    width: 327px;
-    height: 123px;
-    font-family: 'Poppins';
+  #Service {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    order: 2;
-    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    justify-content: space-between;
+  }
 
+  #bg-img {
+    margin-top: -55%;
+    margin-right: -24px;
   }
 }
