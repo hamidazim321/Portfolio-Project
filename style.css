@@ -1,29 +1,21 @@
 /* For Mobile Screens */
 @media only screen and (min-width: 375px) {
   body {
-    background: #1c1a19;
+    padding: 0;
+    margin: 0;
   }
 
   #ToolBar {
     background: #3c3a39;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
 
   #logo-placeholder {
     padding: 10px 12px;
     margin-left: 12px;
     text-align: center;
-  }
-
-  #logo {
-    font-family: 'Roboto', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
   }
 
   #tool-Button {
@@ -34,11 +26,5 @@
     color: white;
     border: none;
     background-color: transparent;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: lightblue;
   }
 }
