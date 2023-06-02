@@ -3,7 +3,7 @@
   body {
     padding: 0;
     margin: 0;
-    width: fit-content;
+    width: fit-content
   }
 
   #ToolBar {
@@ -93,5 +93,129 @@
     display: flex;
     flex-direction: column;
     right: 0;
+  }
+
+  #Works {
+    display: grid;
+
+  }
+ 
+
+  .Sec-1 {
+    min-width: 375px;
+    display: grid;
+    justify-content: center;
+    color: #091E42;
+  }
+
+  .Sec-1 h2 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
+  #Works h3 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .Sec-1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+    margin-top: -4%;
+    
+  }
+
+  .sec-2 {
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+  .data {
+    background-image: url('Works-Images/sec-2-bg.png');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    padding-top: 15%;
+    min-width: 327px;
+    color: #fff;
+  }
+
+  .data p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -4%;
+    padding-left: 5%;
+  }
+
+  .data h3 {
+    padding-left: 5%;
+    
+  }
+
+  .tech-stacks {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+  }
+
+  .S1-btn {
+    width: fit-content;
+    height: 48px;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #ff6b00;
+    border: none;
+  }
+
+  .tech {
+    padding-left: 5%;
+  }
+
+  .s2-btn {
+    height: 48px;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #ff6b00;
+    border: none;
+    width: 100%;
+  }
+
+  .btn:hover {
+    background-color: #fff5e1;
+    color: #ff6b00;
+    border: solid 1px #ff6b00;
+    cursor: pointer;
+  }
+
+  .btn:disabled {
+    background-color: #f4f1f0;
+    color: #091E42;
+    border: none;
   }
 }
