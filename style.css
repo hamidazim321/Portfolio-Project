@@ -61,7 +61,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-
   }
 
   #Status {
@@ -82,7 +81,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-
   }
 
   #Service {
