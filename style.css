@@ -3,6 +3,7 @@
   body {
     padding: 0;
     margin: 0;
+    width: fit-content;
   }
 
   #ToolBar {
@@ -38,6 +39,11 @@
     top: 92px;
     background: #1c1a19;
     width: 375px;
+    background-image: url("Background-Images/Illustration.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    min-height: 500px;
   }
 
   #Name {
@@ -55,6 +61,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+
   }
 
   #Status {
@@ -66,7 +73,6 @@
     font-size: 13px;
     line-height: 32px;
     flex: none;
-    order: 1;
     flex-grow: 0;
     color: #fff5e1;
   }
@@ -74,29 +80,20 @@
   #Contacts {
     display: flex;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+
   }
 
   #Service {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     right: 0;
-    justify-content: space-between;
-  }
-
-  #bg-img {
-    margin-top: -65%;
-    margin-right: -24px;
-    background-image: url("Background-Images/Illustration.png");
-    background-size: cover;
-    width: 190px;
-    height: 400px;
   }
 }
