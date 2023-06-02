@@ -1,0 +1,97 @@
+/* For Mobile Screens */
+@media only screen and (min-width: 375px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+  }
+
+  #ToolBar {
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 423px;
+  }
+
+  #logo-placeholder {
+    padding: 10px 12px;
+    margin-left: 12px;
+    text-align: center;
+  }
+
+  #tool-Button {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    font-size: larger;
+    color: white;
+    border: none;
+    background-color: transparent;
+  }
+
+  #headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 24px;
+    left: 0;
+    top: 92px;
+    background: #1c1a19;
+    width: 375px;
+    background-image: url("Background-Images/Illustration.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    min-height: 500px;
+  }
+
+  #Name {
+    width: 327px;
+    height: 124px;
+    top: 120px;
+    left: 24px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    text-align: left;
+    color: #ff6b00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #Status {
+    width: 327px;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    flex: none;
+    flex-grow: 0;
+    color: #fff5e1;
+  }
+
+  #Contacts {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Service {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+  }
+}
