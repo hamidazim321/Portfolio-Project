@@ -83,6 +83,10 @@
     width: 77vw;
   }
 
+  .sec-1 ul {
+    padding-left: 0;
+  }
+
   .poster {
     margin-top: 4vh;
     width: 75vw;
