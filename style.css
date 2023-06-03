@@ -64,12 +64,12 @@
     margin-bottom: 0;
     display: flex;
     list-style: none;
-    padding-left: 0;
+    padding-left: 3%;
   }
 
   .works {
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.75fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
   }
 
@@ -189,10 +189,7 @@
     padding-right: 2vw;
   }
 
-  .sec-2 ul {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
+  
 
   .Bottom {
     display: grid;
