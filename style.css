@@ -3,13 +3,13 @@
   body {
     padding: 0;
     margin: 0;
-    max-width: 765px
+    max-width: 765px;
   }
+
   * {
     box-sizing: border-box;
   }
   
-
   #ToolBar {
     background: #3c3a39;
     display: flex;
@@ -18,9 +18,8 @@
     padding: 0.5em 1em;
     margin: 0;
   }
-
+  
   .main {
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -36,20 +35,18 @@
     padding-bottom: 20vh;
   }
   
-
   .h1-orange {
     margin-top: 0;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10vw;
     color: #ff6b00;
     margin-bottom: 0;
-
   }
-
+  
   .h2-white {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #fff5e1;
@@ -57,10 +54,10 @@
   }
 
   .p-white {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #fff;
     font-size: large;
   }
 
@@ -75,7 +72,6 @@
     display: grid;
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
- 
   }
 
   .center {
@@ -88,11 +84,30 @@
     width: 77vw;
   }
 
-
-
   .poster {
     margin-top: 4vh;
     width: 75vw;
+  }
+
+  .dark li {
+    margin: 0 4%;
+  }
+
+  .skill li {
+    margin-bottom: 9%;
+  }
+
+  .no-style li {
+    list-style: none;
+    color: #fff;
+    margin-top: 3vh;
+    text-align: center;
+    margin-right: 22vw;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    padding-bottom: 2vh;
   }
 
   .works ul li {
@@ -100,23 +115,23 @@
   }
 
   .h2-dark {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 8vw;
-    color: #1c1a19
+    color: #1c1a19;
   }
 
   .h3-dark {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 6vw;
-    color: #091e42
+    color: #091e42;
   }
 
   .p-dark {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #091e42;
@@ -127,20 +142,20 @@
     border: none;
     font-size: 4vw;
     padding: 0.5em;
-    color: white;
+    color: #fff;
     margin-top: 0.5em;
   }
 
   .btn:hover {
     border: solid 2px #ff6b00;
     cursor: pointer;
-    background-color: #FFF5E1;
+    background-color: #fff5e1;
     color: #ff6b00;
   }
 
   .btn:disabled {
-    background-color: #F4F1F0;
-    color: #5B5957;
+    background-color: #f4f1f0;
+    color: #5b5957;
     border: none;
   }
 
@@ -157,20 +172,20 @@
   }
 
   .h3-light {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 6vw;
-    color: white;
+    color: #fff;
     padding-left: 2vw;
     padding-right: 2vw;
   }
 
   .p-light {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: white;
+    color: #fff;
     padding-left: 2vw;
     padding-right: 2vw;
   }
@@ -186,12 +201,11 @@
   }
 
   .Aboutme {
-    background-color: #1C1A19;
+    background-color: #1c1a19;
     padding-left: 6vw;
     background-image: url('Background-Images/Group.png');
     background-repeat: no-repeat;
     background-position: right bottom;
-    
   }
 
   .Aboutme p {
@@ -199,7 +213,7 @@
   }
 
   .h2-orange {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #ff6b00;
@@ -208,13 +222,13 @@
   }
 
   .Techs {
-    background-color: #1C1A19;
+    background-color: #1c1a19;
   }
 
   .large {
-    color: white;
+    color: #fff;
     font-size: 8vw;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-align: center;
@@ -230,7 +244,6 @@
     position: relative;
     list-style: none;
     margin-left: 40px;
-
   }
 
   .circle::before {
@@ -242,19 +255,16 @@
     height: 15px;
     background-color: #ff6b00;
     transform-origin: center;
-    margin-top: -7.5px; 
+    margin-top: -7.5px;
     border-radius: 50%;
   }
-  
   
   .circle {
     position: relative;
     list-style: none;
-    margin-left: px;
+    margin-left: 11%;
   }
   
-
-
   .symbol::before {
     content: "";
     position: absolute;
@@ -264,24 +274,22 @@
     height: 15px;
     background-color: #ff6b00;
     transform-origin: center;
-    margin-top: -7.5px; 
+    margin-top: -7.5px;
   }
   
-
-  .no-style li {
+  .skill {
     list-style: none;
-    color: white;
+    color: #fff;
     margin-top: 3vh;
     text-align: center;
-    margin-right: 22vw;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: x-large;
     padding-bottom: 2vh;
+    margin-right: 16%;
   }
   
-
   .Techs hr {
     width: 80vw;
   }
@@ -291,8 +299,8 @@
   }
 
   .inter {
-    color: #172B4D;
-    font-family: 'Inter';
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 8vw;
@@ -305,7 +313,7 @@
     width: 100%;
     margin-bottom: 7%;
     border: none;
-    border-bottom: 1px solid  #DBD8D7;
+    border-bottom: 1px solid  #dbd8d7;
   }
 
   .grey:focus {
@@ -321,12 +329,12 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     border: none;
-    background-color: #FBF8F7;;
+    background-color: #fbf8f7;
   }
 
   .box::placeholder {
-    color: #3C3A39;
-    font-family: 'Inter';
+    color: #3c3a39;
+    font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
   }
@@ -337,13 +345,7 @@
     margin-bottom: 7%;
   }
 
-  .dark{
+  .dark {
     justify-content: center;
-  }
-
-  .dark li{
-    margin: 0 4%;
-
-    
   }
 }
