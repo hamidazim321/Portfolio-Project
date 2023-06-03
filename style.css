@@ -23,7 +23,7 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+
   .Intro {
     background-color: #1c1a19;
     padding-left: 4vw;
@@ -33,7 +33,7 @@
     background-position: right 26vh;
     padding-bottom: 20vh;
   }
-  
+
   .h1-orange {
     margin-top: 0;
     font-family: 'Crete Round', sans-serif;
@@ -257,14 +257,13 @@
     margin-top: -7.5px;
     border-radius: 50%;
   }
-  
+
   .circle {
     position: relative;
     list-style: none;
     margin-left: 11%;
   }
-  /* stylelint-disable-next-line no-eol-whitespace */
-  
+
   .symbol::before {
     content: "";
     position: absolute;
@@ -276,8 +275,7 @@
     transform-origin: center;
     margin-top: -7.5px;
   }
-  /* stylelint-disable-next-line no-eol-whitespace */
-  
+
   .skill {
     list-style: none;
     color: #fff;
@@ -290,7 +288,7 @@
     padding-bottom: 2vh;
     margin-right: 16%;
   }
-  
+
   .Techs hr {
     width: 80vw;
   }
