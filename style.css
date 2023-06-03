@@ -131,6 +131,19 @@
     margin-top: 0.5em;
   }
 
+  .btn:hover {
+    border: solid 2px #ff6b00;
+    cursor: pointer;
+    background-color: #FFF5E1;
+    color: #ff6b00;
+  }
+
+  .btn:disabled {
+    background-color: #F4F1F0;
+    color: #5B5957;
+    border: none;
+  }
+
   .sec-1 button {
     width: 27vw;
     margin-bottom: 0;
