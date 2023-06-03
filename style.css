@@ -92,21 +92,25 @@
     margin: 0 4%;
   }
 
-  .skill li {
-    margin-bottom: 9%;
-  }
-
   .no-style li {
-    list-style: none;
     color: #fff;
-    margin-top: 3vh;
-    text-align: center;
-    margin-right: 22vw;
+    margin-top: 5%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: x-large;
     padding-bottom: 2vh;
+  }
+
+  .cent-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .cent-list li {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
   }
 
   .works ul li {
@@ -191,7 +195,7 @@
 
   .Bottom {
     display: grid;
-    grid-template-rows: 1fr 2fr 1.5fr;
+    grid-template-rows: 1.2fr 2fr 1.5fr;
   }
 
   .Aboutme {
@@ -215,6 +219,16 @@
     margin-bottom: 0;
   }
 
+  .languages {
+    padding-right: 16%;
+  }
+
+  .languages hr {
+    width: 100%;
+    display: flex;
+    margin: 0 10%;
+  }
+
   .Techs {
     background-color: #1c1a19;
   }
@@ -226,8 +240,7 @@
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    margin-right: 20%;
-    margin-top: 5%;
+    list-style: none;
   }
 
   .diamond::before {
@@ -237,14 +250,14 @@
   .symbol {
     position: relative;
     list-style: none;
-    margin-left: 40px;
+    margin-left: 10%;
   }
 
   .circle::before {
     content: "";
     position: absolute;
     top: 50%;
-    left: 23%;
+    left: -30%;
     width: 15px;
     height: 15px;
     background-color: #ff6b00;
@@ -263,25 +276,12 @@
     content: "";
     position: absolute;
     top: 50%;
-    left: -3%;
+    left: -13%;
     width: 15px;
     height: 15px;
     background-color: #ff6b00;
     transform-origin: center;
     margin-top: -7.5px;
-  }
-
-  .skill {
-    list-style: none;
-    color: #fff;
-    margin-top: 3vh;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: x-large;
-    padding-bottom: 2vh;
-    margin-right: 16%;
   }
 
   .Techs hr {
@@ -331,6 +331,10 @@
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
+  }
+
+  .box:focus {
+    outline: none;
   }
 
   .contacts button {
