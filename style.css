@@ -3,402 +3,258 @@
   body {
     padding: 0;
     margin: 0;
-    width: fit-content;
+    max-width: 765px
   }
+  * {
+    box-sizing: border-box;
+  }
+  
 
   #ToolBar {
     background: #3c3a39;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 423px;
-  }
-
-  #logo-placeholder {
-    padding: 10px 12px;
-    margin-left: 12px;
-    text-align: center;
-  }
-
-  #tool-Button {
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    font-size: larger;
-    color: white;
-    border: none;
-    background-color: transparent;
-  }
-
-  #headline {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 50px 24px;
-    left: 0;
-    top: 92px;
-    background: #1c1a19;
-    width: 375px;
-    background-image: url("Background-Images/Illustration.png");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: right;
-    min-height: 500px;
-  }
-
-  #Name {
-    width: 327px;
-    height: 124px;
-    top: 120px;
-    left: 24px;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    text-align: left;
-    color: #ff6b00;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  #Status {
-    width: 327px;
-    height: 27px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 32px;
-    flex: none;
-    flex-grow: 0;
-    color: #fff5e1;
-  }
-
-  #Contacts {
-    display: flex;
-    list-style: none;
+    padding: 0.5em 1em;
     margin: 0;
-    padding: 0;
   }
 
-  #Service {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    right: 0;
-  }
+  .main {
 
-  #Works {
-    display: grid;
-    grid-template-rows: repeat(7, auto);
-    grid-template-columns: 375px;
-    width: 375px;
-    gap: 1%;
-    border: solid;
-    
-  }
- 
-
-  .Sec-1 {
-    min-width: 375px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 5%;
-    color: #091E42;
-  }
-
-  .Sec-1 h2 {
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091E42;
-    
-  }
-
-  #Works h3 {
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-  .Sec-1 p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #091E42;
-    margin-top: -4%;
-    
-  }
-
-  .sec-2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 5%;
-
-    align-items: flex-start;
   }
-
-  .data {
-    background-image: url('Works-Images/sec-2-bg.png');
+  
+  .Intro {
+    background-color: #1c1a19;
+    padding-left: 4vw;
+    padding-top: 5vh;
+    background-image: url("Background-Images/Illustration.png");
     background-repeat: no-repeat;
-    background-position-y: top;
-    background-position-x: center;
-    padding-top: 15%;
-    margin: 0;
-    min-width: 327px;
-    color: #fff;
+    background-position: right 26vh;
+    padding-bottom: 20vh;
   }
+  
 
-  .data p {
-    font-family: 'Inter';
+  .h1-orange {
+    margin-top: 0;
+    font-family: 'Crete Round';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: -4%;
-    padding-left: 8%;
-  
+    font-size: 10vw;
+    color: #ff6b00;
+    margin-bottom: 0;
+
   }
 
-  .data h3 {
-    padding-left: 8%;
-    
-  }
-
-  .S1-btn {
-    width: fit-content;
-    height: 48px;
-    margin-top: 3%;
-    font-family: 'Inter';
+  .h2-white {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
-    background: #ff6b00;
-    border: none;
+    color: #fff5e1;
+    font-size: x-large;
   }
 
-  .tech-stacks {
+  .p-white {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: large;
+  }
+
+  .list-icons {
+    margin-bottom: 0;
     display: flex;
     list-style: none;
     padding-left: 0;
   }
-  .tech-stacks li {
-    margin-right: 3%;
+
+  .works {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+ 
   }
 
-  .S2-tech-stacks {
-    display: flex;
-    list-style: none;
-    padding-left: 8%;
-  }
-  .S2-tech-stacks li {
-    margin-right: 3%;
-  
-  }
-
-
-
-  .s2-btn {
-    height: 48px;
-    margin-top: 3%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
-    background: #ff6b00;
-    border: none;
-    width: 100%;
-  }
-
-  .btn:hover {
-    background-color: #fff5e1;
-    color: #ff6b00;
-    border: solid 1px #ff6b00;
-    cursor: pointer;
-  }
-
-  .btn:disabled {
-    background-color: #f4f1f0;
-    color: #091E42;
-    border: none;
-  }
-
-  .AboutMe {
+  .center {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
-    width: 375px;
-    height: 650px;
-    background-color: #1C1A19;
-    background-image: url('Background-Images/Group.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-x: right;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-
-    
+    justify-self: center;
   }
 
-  .Me {
-    display: grid;
-    grid-template-rows: repeat(4,auto);
-    padding-left: 8%;
-    
-
-
-    
+  .sec-1 {
+    width: 77vw;
   }
 
-  .Me h2 {
+
+
+  .poster {
+    margin-top: 4vh;
+    width: 75vw;
+  }
+
+  .works ul li {
+    margin-right: 2vw;
+  }
+
+  .h2-dark {
     font-family: 'Crete Round';
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
-    line-height: 88px;
-    color: #ff6b00;
+    font-size: 8vw;
+    color: #1c1a19
   }
-  .Me p {
+
+  .h3-dark {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    color: #091e42
+  }
+
+  .p-dark {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #f4f5f7;
+    color: #091e42;
   }
 
-  .Me button{
-    width: 156px;
-    height: 48px;
+  .btn {
     background-color: #ff6b00;
     border: none;
+    font-size: 4vw;
+    padding: 0.5em;
+    color: white;
+    margin-top: 0.5em;
   }
 
-  .frameworks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1C1A19;
-    width: 375px;
+  .sec-1 button {
+    width: 27vw;
+    margin-bottom: 0;
   }
-  
-  .frameworks hr {
-    width: 80%;
+
+  .sec-2 {
+    background-image: url('Works-Images/sec-2-bg.png');
+    padding-top: 9vh;
+    width: 77vw;
+    margin-bottom: 7vh;
   }
-  .star {
-    list-style: none;
+
+  .h3-light {
+    font-family: 'Crete Round';
     font-style: normal;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    
+    font-weight: 400;
+    font-size: 6vw;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
-  
-  .star::before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: #000; 
-    transform: rotate(-45deg); 
-    transform-origin: top; 
-    margin-right: 10px; 
-    background-color: #ff6b00;
-    margin-right: 20px;
+
+  .p-light {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .sec-2 ul {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .Bottom {
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+  }
+
+  .Aboutme {
+    background-color: #1C1A19;
+    width: 100%;
+    padding-left: 6vw;
+    padding-bottom: 30vh;
+    background-image: url('Background-Images/Group.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .Aboutme p {
+    padding-left: 0;
+  }
+
+  .h2-orange {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    color: #ff6b00;
+    font-size: 16vw;
+    margin-bottom: 0;
+  }
+
+  .Techs {
+    background-color: #1C1A19;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .languages {
-    margin-top: 12px;
-    list-style: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    text-align: center;
-    color: #fff;
-    margin-left: -40%;
   }
 
-  .square {
-    list-style: none;
-    font-style: normal;
+  .large {
+    color: white;
+    font-size: 8vw;
     font-family: 'Inter';
+    font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
+
   }
 
-  .square::before {
+  .diamond::before {
+    transform: rotate(-45deg);
+  }
+
+  .symbol {
+    position: relative;
+    list-style: none;
+    
+    margin-left: 40px;
+
+  }
+
+  .symbol::before {
     content: "";
-    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -30px;
     width: 15px;
     height: 15px;
-    background-color: #000; 
-    transform-origin: top; 
-    margin-right: 10px; 
     background-color: #ff6b00;
-    margin-right: 20px;
-  }
-
-  .skills {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    list-style: none;
-    font-style: normal;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
+    transform-origin: center;
+    margin-top: -7.5px; 
   }
   
-  .skills::before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px; 
-    border-radius: 50%; 
-    background-color: #ff6b00; 
-    margin-right: 12px;
-  }
 
-  .skill {
+  .no-style li {
+    list-style: none;
+    color: white;
+    margin-top: 3vh;
+    text-align: center;
+    margin-right: 22vw;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    list-style: none;
-    color: #fff;
-    margin-left: -50%;
-    text-align: center;
-
+    font-size: x-large;
+    padding-bottom: 2vh;
   }
   
+  
 
+  .Techs hr {
+    width: 80vw;
+  }
 
 }
