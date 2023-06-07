@@ -1,12 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 @media only screen and (min-width: 375px) {
   body {
     padding: 0;
     margin: 0;
-    max-width: 765px;
-  }
-
-  * {
-    box-sizing: border-box;
   }
 
   #ToolBar {
@@ -351,5 +350,47 @@
 
   .dark {
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+
+  #ToolBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+  }
+/* Intro part black top */
+  .Intro {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid red;
+    padding: 10% 0 0 0;
+    background-image: url('Background-Images/Desktop-bg.svg');
+    background-position: right top;
+    background-size: 45%;
+    align-items: center;
+  }
+
+  .Intro ul {
+    order: -1;
+    margin: auto 0;
+    flex-direction: column;
+    padding: 0 0 0 3%;
+    margin-right: 3%;
+  }
+
+  .h1-orange {
+    font-weight: 600;
+    font-size: 3em;
+  }
+
+  .h2-white {
+    font-size: 2em;
+  }
+
+  .p-white {
+    font-size: 1em;
   }
 }
