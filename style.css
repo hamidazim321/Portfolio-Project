@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .Intro {
@@ -71,7 +72,7 @@
     display: grid;
     grid-template-rows: 1.75fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    padding: 0 10%;
+    padding: 0 5%;
   }
 
   .sec-1 {
@@ -413,6 +414,58 @@
   .sec-1 {
     width: 90%;
   }
+
+  .card-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 58%;
+
+    margin-right: 4%;
+  }
+
+  .poster {
+    width: 100%;
+  }
+
+  .description {
+    width: 38%;
+
+  }
+
+  .h3-dark {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    color: #091e42;
+  }
+
+  .description p {
+    font-size: 1.5vw;
+  }
+  .description ul {
+    padding-left: 0;
+    gap: 0vw;
+  }
+
+  .description ul li {
+    margin: 0;
+  }
+  .description ul li img{
+    width: 80%;
+  }
+
+  .description button {
+    font-size: 2vw;
+    padding: 1vh;
+    width: 12vw;
+  }
+
+
+
   .sec-2 {
     background-image: url('Works-Images/sec-2-bg.png');
     background-size: cover;
