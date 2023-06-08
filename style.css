@@ -72,7 +72,7 @@
     display: grid;
     grid-template-rows: 1.75fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    padding: 0 5%;
+    padding: 0 10%;
   }
 
   .sec-1 {
@@ -411,6 +411,16 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .h2-dark hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%
+  }
+
+  .h2-dark {
+    font-size: 5vw;
+  }
   .sec-1 {
     width: 90%;
   }
@@ -422,7 +432,6 @@
 
   .img {
     width: 58%;
-
     margin-right: 4%;
   }
 
@@ -547,7 +556,7 @@
   /* Bottom section (Languages, contacts */
   .Bottom {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.8fr 0.8fr;
     margin-top: 5vh;
   }
 
@@ -556,6 +565,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 40vw;
+    padding-left: 8%;
   }
 
   .Aboutme button {
@@ -668,23 +678,32 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 3.2vw;
     width: 40%;
     text-align: left;
     margin-top: 0;
   }
 
+  .contacts {
+    padding-top: 15vh;
+  }
+
   .contacts form {
     width: 60%;
+    padding-left: 2vw;
   }
 
   .contacts form button {
-
     margin-left: 0;
     font-size: 2vw;
     padding: 1.5vh 1vw;
     width: fit-content;
-
   }
-  
+  .box {
+    padding-bottom: 4vh;
+    padding-top: 3%;
+    width: 100%;
+    padding-left: 3%;
+    
+  }
 }
