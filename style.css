@@ -392,16 +392,16 @@
   }
 
   .h1-orange {
-    font-weight: 600;
-    font-size: 3em;
+    font-weight: 400;
+    font-size: 8vw;
   }
 
   .h2-white {
-    font-size: 2em;
+    font-size: 4vw;
   }
 
   .p-white {
-    font-size: 1em;
+    font-size: 2vw;
   }
 
   .works {
