@@ -65,7 +65,6 @@
     display: flex;
     list-style: none;
     padding-left: 3%;
-    border: solid;
   }
 
   .works {
@@ -213,7 +212,7 @@
     padding-left: 6vw;
     background-image: url('Background-Images/Group.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position:right bottom;
   }
 
   .Aboutme p {
@@ -428,5 +427,116 @@
     padding-right: 0;
   }
 
+  /* Bottom section (Languages, contacts */
+  .Bottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1.5fr;
+  }
+
+  .languages {
+    padding: 0;
+  }
+
+  .cent-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 10%;
+  }
+
+  .large {
+    font-size: 200%;
+    margin-left: 10%;
+    
+  }
+
+  .no-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+
+  .no-style li {
+    color: #fff;
+    margin-top: 5%;
+    font-size: large;
+    padding-bottom: 2vh;
+    margin-left: 0;
+  }
+
+  .diamond::before {
+    transform: rotate(-45deg);
+  }
+
+  .symbol {
+    position: relative;
+    list-style: none;
+    margin-left: 0%;
+  }
+
+  .circle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -25%;
+    width: 15px;
+    height: 15px;
+    background-color: #ff6b00;
+    transform-origin: center;
+    margin-top: -7.5px;
+    border-radius: 50%;
+  }
+
+  .circle {
+    position: relative;
+    list-style: none;
+    margin-left: -53%;
+    margin-top: 15%;
+  }
+
+  .symbol::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -13%;
+    width: 15px;
+    height: 15px;
+    background-color: #ff6b00;
+    transform-origin: center;
+    margin-top: -7.5px;
+  }
+
+  .contacts {
+    padding: 4% 8%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .inter {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    width: 40%;
+    text-align: left;
+    border: solid;
+    margin-top: 0;
+  }
+
+  .contacts form {
+    width: 60%;
+    border: solid;
+  }
+
+  .contacts form button {
+
+    margin-left: 0;
+    font-size: 2vw;
+    padding: 1.5vh 1vw;
+    width: fit-content;
+
+  }
   
 }
