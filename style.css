@@ -175,7 +175,6 @@
     padding-top: 9vh;
     width: 77vw;
     margin-bottom: 0;
-    border: solid;
   }
 
   .sec-2 button {
@@ -371,7 +370,6 @@
   .Intro {
     display: flex;
     flex-wrap: wrap;
-    border: solid red;
     padding: 10% 0 0 0;
     background-image: url('Background-Images/Desktop-bg.svg');
     background-position: right top;
@@ -404,7 +402,6 @@
   .works {
     display: flex;
     flex-wrap: wrap;
-    border: solid blue;
   }
   .sec-1 {
     width: 90%;
@@ -430,7 +427,39 @@
   /* Bottom section (Languages, contacts */
   .Bottom {
     display: grid;
-    grid-template-rows: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .Aboutme {
+    background-image: url(Background-Images/illustration-about\ me.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40vw;
+  }
+
+  .Aboutme button {
+    margin-bottom: 20%;
+    font-size: 2vw;
+  }
+
+  .h2-orange {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ff6b00;
+    font-size: 8vw;
+    margin-bottom: 0;
+  }
+
+  .p-light {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 60%;
+    font-size: 1.8vw;
   }
 
   .languages {
@@ -521,13 +550,11 @@
     font-size: 3vw;
     width: 40%;
     text-align: left;
-    border: solid;
     margin-top: 0;
   }
 
   .contacts form {
     width: 60%;
-    border: solid;
   }
 
   .contacts form button {
