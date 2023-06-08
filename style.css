@@ -453,8 +453,20 @@
     font-size: 1.5vw;
   }
 
+  .sec-2 ul img {
+    width: 85%;
+  }
+
   .description ul {
     padding-left: 0;
+  }
+
+  .no-style li {
+    color: #fff;
+    margin-top: 5%;
+    font-size: large;
+    padding-bottom: 2vh;
+    margin-left: 0;
   }
 
   .description ul li {
@@ -513,10 +525,6 @@
     justify-content: flex-start;
   }
 
-  .sec-2 ul img {
-    width: 85%;
-  }
-
   .h3-light {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -530,8 +538,8 @@
     margin-bottom: 0;
   }
 
-  .bg-new h3, 
-  .bg-new p, 
+  .bg-new h3,
+  .bg-new p,
   .bg-new ul {
     visibility: hidden;
     font-size: 0;
@@ -601,7 +609,7 @@
 
   .large {
     font-size: 200%;
-    margin-left: 10%; 
+    margin-left: 10%;
   }
 
   .no-style {
@@ -609,14 +617,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 0;
-  }
-
-  .no-style li {
-    color: #fff;
-    margin-top: 5%;
-    font-size: large;
-    padding-bottom: 2vh;
-    margin-left: 0;
   }
 
   .diamond::before {
@@ -689,6 +689,7 @@
     padding: 1.5vh 1vw;
     width: fit-content;
   }
+
   .box {
     padding-bottom: 4vh;
     padding-top: 3%;
