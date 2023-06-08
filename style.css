@@ -196,7 +196,6 @@
 
   .sec-2 p {
     font-size: 4vw;
-
   }
 
   .p-light {
@@ -219,7 +218,7 @@
     padding-left: 6vw;
     background-image: url('Background-Images/Group.png');
     background-repeat: no-repeat;
-    background-position:right bottom;
+    background-position: right bottom;
   }
 
   .Aboutme p {
@@ -367,14 +366,13 @@
 }
 
 @media only screen and (min-width: 767px) {
-
   #ToolBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 3em;
   }
-/* Intro part black top */
+
   .Intro {
     display: flex;
     flex-wrap: wrap;
@@ -406,7 +404,6 @@
     font-size: 1em;
   }
 
-  /* Works Section */
   .works {
     display: flex;
     flex-wrap: wrap;
@@ -415,12 +412,13 @@
   .h2-dark hr {
     display: inline-block;
     vertical-align: middle;
-    width: 50%
+    width: 50%;
   }
 
   .h2-dark {
     font-size: 5vw;
   }
+
   .sec-1 {
     width: 90%;
   }
@@ -441,7 +439,6 @@
 
   .description {
     width: 38%;
-
   }
 
   .h3-dark {
@@ -455,15 +452,16 @@
   .description p {
     font-size: 1.5vw;
   }
+
   .description ul {
     padding-left: 0;
-    gap: 0vw;
   }
 
   .description ul li {
     margin: 0;
   }
-  .description ul li img{
+
+  .description ul li img {
     width: 80%;
   }
 
@@ -473,16 +471,12 @@
     width: 12vw;
   }
 
-
-
   .sec-2 {
     background-image: url('Works-Images/sec-2-bg.png');
     background-size: cover;
-    padding-top: 0;
     margin-bottom: 0;
     width: 30%;
     margin-right: 2%;
-    padding-bottom: 0;
     margin-top: 8vh;
     padding: 0;
   }
@@ -536,7 +530,9 @@
     margin-bottom: 0;
   }
 
-  .bg-new h3, .bg-new p, .bg-new ul {
+  .bg-new h3, 
+  .bg-new p, 
+  .bg-new ul {
     visibility: hidden;
     font-size: 0;
   }
@@ -544,6 +540,7 @@
   .bg-new {
     background-image: url('Background-Images/Img\ Placeholder\ \(1\).png');
   }
+
   .bg-new button {
     visibility: visible;
     font-size: 2vw;
@@ -553,7 +550,6 @@
     margin-bottom: 0;
   }
 
-  /* Bottom section (Languages, contacts */
   .Bottom {
     display: grid;
     grid-template-rows: 1fr 0.8fr 0.8fr;
@@ -605,8 +601,7 @@
 
   .large {
     font-size: 200%;
-    margin-left: 10%;
-    
+    margin-left: 10%; 
   }
 
   .no-style {
@@ -667,10 +662,9 @@
   }
 
   .contacts {
-    padding: 4% 8%;
+    padding: 15vh 8% 4% 8%;
     display: flex;
     flex-direction: row;
-    
   }
 
   .inter {
@@ -682,10 +676,6 @@
     width: 40%;
     text-align: left;
     margin-top: 0;
-  }
-
-  .contacts {
-    padding-top: 15vh;
   }
 
   .contacts form {
@@ -704,6 +694,5 @@
     padding-top: 3%;
     width: 100%;
     padding-left: 3%;
-    
   }
 }
