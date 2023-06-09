@@ -154,6 +154,8 @@
     cursor: pointer;
     background-color: #fff5e1;
     color: #ff6b00;
+    transition-duration: 2s;
+    transition-delay: .4s;
   }
 
   .btn:disabled {
