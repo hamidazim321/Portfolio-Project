@@ -407,7 +407,6 @@
   .works {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
   }
 
   .h2-dark hr {
@@ -422,7 +421,6 @@
 
   .sec-1 {
     width: 100%;
-    border: solid;
   }
 
   .card-1 {
@@ -441,7 +439,6 @@
 
   .description {
     width: 38%;
-    border: solid;
   }
 
   .h3-dark {
@@ -493,11 +490,20 @@
     width: 32%;
     margin-right: auto;
     margin-top: 8vh;
-    padding: 0;
+    padding: 10% 0 0 0;
+  }
+
+  .first-card {
+    background-image:url('Background-Images/First-card.png');
+  }
+
+  .center-card {
+    background-image: url('Background-Images/Center-bg.png');
   }
 
   .last {
     margin-right: 0;
+    background-image: url('Background-Images/last-card-bg.png');
   }
 
   .sec-2 p {
@@ -702,5 +708,9 @@
     padding-top: 3%;
     width: 100%;
     padding-left: 3%;
+  }
+
+  .dark li {
+    margin: 0 1vw;
   }
 }
