@@ -469,6 +469,10 @@
     margin-left: 0;
   }
 
+  .dark li {
+    margin: 0 1vw;
+  }
+
   .description ul li {
     margin: 0;
   }
@@ -494,7 +498,7 @@
   }
 
   .first-card {
-    background-image:url('Background-Images/First-card.png');
+    background-image: url('Background-Images/First-card.png');
   }
 
   .center-card {
@@ -708,9 +712,5 @@
     padding-top: 3%;
     width: 100%;
     padding-left: 3%;
-  }
-
-  .dark li {
-    margin: 0 1vw;
   }
 }
