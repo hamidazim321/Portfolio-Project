@@ -484,7 +484,7 @@
   .description button {
     font-size: 2vw;
     padding: 1vh;
-    width: 12vw;
+    width: fit-content;
   }
 
   .sec-2 {
