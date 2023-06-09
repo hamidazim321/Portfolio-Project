@@ -407,6 +407,7 @@
   .works {
     display: flex;
     flex-wrap: wrap;
+    border: solid;
   }
 
   .h2-dark hr {
@@ -420,7 +421,8 @@
   }
 
   .sec-1 {
-    width: 90%;
+    width: 100%;
+    border: solid;
   }
 
   .card-1 {
@@ -439,6 +441,7 @@
 
   .description {
     width: 38%;
+    border: solid;
   }
 
   .h3-dark {
@@ -487,10 +490,14 @@
     background-image: url('Works-Images/sec-2-bg.png');
     background-size: cover;
     margin-bottom: 0;
-    width: 30%;
-    margin-right: 2%;
+    width: 32%;
+    margin-right: auto;
     margin-top: 8vh;
     padding: 0;
+  }
+
+  .last {
+    margin-right: 0;
   }
 
   .sec-2 p {
