@@ -72,7 +72,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Summary Video of Project <a name="Summary"></a>
+## Summary Video of Project <a name="Summary"></a>
 
 - [Summary](https://www.loom.com/share/69f61611b2974542828eb5a6dc4e96d0?sid=ddc82b21-3a4a-4c63-bc7e-1c6b57d4e5ac)
 
