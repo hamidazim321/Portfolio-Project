@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Summary Video of Project](#Summary)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -68,6 +69,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://hamidazim321.github.io/Portfolio-Project/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Summary Video of Project <a name="Summary"></a>
+
+- [Summary](https://www.loom.com/share/69f61611b2974542828eb5a6dc4e96d0?sid=ddc82b21-3a4a-4c63-bc7e-1c6b57d4e5ac)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
