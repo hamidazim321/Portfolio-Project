@@ -407,11 +407,13 @@
     display: flex;
     gap: 2vw;
     margin: 0;
+    transition: 3s;
   }
 
   .Descnavs li a {
     color: white;
     text-decoration: none;
+    transition: 3s;
   }
 
   .Intro {

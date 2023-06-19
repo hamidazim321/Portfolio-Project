@@ -13,7 +13,7 @@ function ScrollTo(elclass, location = HomePage) {
   const Menubar = document.querySelector('#tool-Button');
   Menubar.addEventListener('click', () => {
     let menu = document.createElement('div');
-    menu.innerHTML = MenuOptions
+    menu.innerHTML = MenuOptions;
     const body = document.querySelector('body');
     body.innerHTML = '';
     body.appendChild(menu);
@@ -29,7 +29,7 @@ function ScrollTo(elclass, location = HomePage) {
 
 function LoadMenu() {
   let menu = document.createElement('div');
-  menu.innerHTML = MenuOptions
+  menu.innerHTML = MenuOptions;
   const body = document.querySelector('body');
   body.innerHTML = '';
   body.appendChild(menu);
