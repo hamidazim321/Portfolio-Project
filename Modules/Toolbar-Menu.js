@@ -2,7 +2,7 @@ let HomePage = document.querySelector('body').innerHTML;
 function LoadMenu(){
   let menu = document.createElement('div');
   menu.innerHTML = `<div id="Menu">
-  <a id="closeMenu" href="">X</a>
+  <a id="closeMenu" href=""><i class="fa fa-close fa-2x"></i></a>
   <a href="#" data-target = 'works'><h1>Portfolio <hr></h1></a>
   <a href="#" data-target = 'Aboutme'><h1>About <hr></h1></a>
   <a href="#" data-target = 'contacts'><h1>Contact <hr></h1></a>
