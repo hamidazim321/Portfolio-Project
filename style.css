@@ -218,7 +218,7 @@
 
   .Bottom {
     display: grid;
-    grid-template-rows: 1.2fr 2fr 1.5fr;
+    grid-template-rows: 1fr 2fr 1.5fr;
     margin-top: 7vh;
   }
 
@@ -618,7 +618,7 @@
 
   .Bottom {
     display: grid;
-    grid-template-rows: 1fr 0.8fr 0.8fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
     margin-top: 5vh;
   }
 
@@ -631,7 +631,7 @@
   }
 
   .Aboutme button {
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     font-size: 2vw;
   }
 
@@ -720,7 +720,7 @@
   }
 
   .contacts {
-    padding: 15vh 8% 4% 8%;
+    padding: 15vh 8% 0 8%;
     display: flex;
     flex-direction: row;
   }
