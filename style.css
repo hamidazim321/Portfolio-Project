@@ -6,6 +6,7 @@
   body {
     padding: 0;
     margin: 0;
+    height: 100%;
   }
 
   #ToolBar {
@@ -16,6 +17,8 @@
     padding: 0.5em 1em;
     margin: 0;
     width: 100%;
+    position: fixed;
+    z-index: 1;
   }
 
   .main {
@@ -28,11 +31,11 @@
   .Intro {
     background-color: #1c1a19;
     padding-left: 4vw;
-    padding-top: 5vh;
+    padding-top: 20vh;
     background-image: url("Background-Images/Illustration.png");
     background-repeat: no-repeat;
-    background-position: right 26vh;
-    padding-bottom: 20vh;
+    background-position: right bottom;
+    padding-bottom: 30vh;
   }
 
   .h1-orange {
@@ -68,11 +71,15 @@
     padding-left: 3%;
   }
 
+  .gap-li {
+    gap: 2vw;
+  }
+
   .works {
     display: grid;
     grid-template-rows: 1.75fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    padding: 0 10%;
+    padding: 5vh 10% 0 10%;
   }
 
   .sec-1 {
@@ -225,7 +232,7 @@
 
   .Aboutme p {
     padding-left: 0;
-    font-size: 1.75vw;
+    font-size: 3vw;
   }
 
   .h2-orange {
@@ -307,7 +314,7 @@
   }
 
   .contacts {
-    padding: 0 8%;
+    padding: 5vh 8%;
     display: flex;
     flex-direction: column;
   }
@@ -366,6 +373,23 @@
   .dark {
     justify-content: center;
   }
+
+  #Menu {
+    background-color: #1c1a19;
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #Menu a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #closeMenu {
+    align-self: flex-end;
+  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -373,7 +397,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 3em;
+    padding: 0.5em 3em;
+  }
+
+  .Descnavs {
+    color: white;
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    margin: 0;
+  }
+
+  .Descnavs li a {
+    color: white;
+    text-decoration: none;
   }
 
   .Intro {
