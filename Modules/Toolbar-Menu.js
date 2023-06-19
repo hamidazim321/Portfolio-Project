@@ -1,4 +1,11 @@
 const HomePage = document.querySelector('body').innerHTML;
+const MenuOptions = `<div id="Menu">
+<a id="closeMenu" href=""><i class="fa fa-close fa-2x"></i></a>
+<a href="#" data-target = 'works'><h1>Portfolio <hr></h1></a>
+<a href="#" data-target = 'Aboutme'><h1>About <hr></h1></a>
+<a href="#" data-target = 'contacts'><h1>Contact <hr></h1></a>
+</div>`;
+
 function ScrollTo(elclass, location = HomePage) {
   const body = document.querySelector('body');
   body.innerHTML = '';
@@ -6,12 +13,7 @@ function ScrollTo(elclass, location = HomePage) {
   const Menubar = document.querySelector('#tool-Button');
   Menubar.addEventListener('click', () => {
     let menu = document.createElement('div');
-    menu.innerHTML = `<div id="Menu">
-    <a id="closeMenu" href=""><i class="fa fa-close fa-2x"></i></a>
-    <a href="#" data-target = 'works'><h1>Portfolio <hr></h1></a>
-    <a href="#" data-target = 'Aboutme'><h1>About <hr></h1></a>
-    <a href="#" data-target = 'contacts'><h1>Contact <hr></h1></a>
-  </div>`;
+    menu.innerHTML = MenuOptions;
     const body = document.querySelector('body');
     body.innerHTML = '';
     body.appendChild(menu);
@@ -27,12 +29,7 @@ function ScrollTo(elclass, location = HomePage) {
 
 function LoadMenu() {
   let menu = document.createElement('div');
-  menu.innerHTML = `<div id="Menu">
-  <a id="closeMenu" href=""><i class="fa fa-close fa-2x"></i></a>
-  <a href="#" data-target = 'works'><h1>Portfolio <hr></h1></a>
-  <a href="#" data-target = 'Aboutme'><h1>About <hr></h1></a>
-  <a href="#" data-target = 'contacts'><h1>Contact <hr></h1></a>
-</div>`;
+  menu.innerHTML = MenuOptions;
   const body = document.querySelector('body');
   body.innerHTML = '';
   body.appendChild(menu);
