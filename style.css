@@ -381,6 +381,7 @@
     flex-direction: column;
     min-height: 100vh;
   }
+
   #Menu a {
     color: white;
     text-decoration: none;
@@ -407,6 +408,7 @@
     gap: 2vw;
     margin: 0;
   }
+
   .Descnavs li a {
     color: white;
     text-decoration: none;
