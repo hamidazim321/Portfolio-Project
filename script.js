@@ -6,18 +6,13 @@ import { LoadProjects } from './Modules/Projects.js';
 window.addEventListener('resize', () => {
   setTimeout(DesctopToolBar(), 100);
   ScrollSpy();
+  LoadProjects()
+  AddMenuEvent();
 });
 
 window.addEventListener('load', () => {
   setTimeout(DesctopToolBar(), 100);
   ScrollSpy();
-});
-
-window.addEventListener('resize', () => {
-  AddMenuEvent();
-});
-
-window.addEventListener('load', () => {
-  AddMenuEvent();
   LoadProjects()
+  AddMenuEvent();
 });

@@ -183,10 +183,10 @@ const MobileProjects = [
 }
 ]
 
-function loadModals(id,Object) {
+function loadModals(Object) {
   let Modal = document.querySelector('#modal')
   let modalTitle = document.querySelector('#modal-title')
-  let titleText = modalTitle.innerText
+  let titleText = modalTitle.textContent
   let ModalList = document.querySelector("#modal-icons")
   let listHTML = ModalList.innerHTML
   let ModalPoster = document.querySelector("#modal-poster")
@@ -229,10 +229,135 @@ function loadModals(id,Object) {
 function LoadProjects (){
   let MainContainer = document.querySelector('#Portfolio')
   let Projects;
+  let ModalTitle;
   if (window.innerWidth < DesktopWidth){
     Projects = MobileProjects
   }
   else{
     Projects = DeskProjects
+    ModalTitle = document.querySelector('#modal-title')
+    ModalTitle.textContent = 'Keeping track of hundreds  of components website'
   }
+  
+  for (let project of Projects){
+    //Make Empty elements
+    let ProjectContainer = document.createElement('div')
+    let name = document.createElement('h2')
+    let description = document.createElement('p')
+    let technologies = document.createElement('ul')
+
+    //Add Data To Elements
+    if(project.recent){
+      let ProjectCard = document.createElement('div') 
+      let ImageHolder = document.createElement('div')
+      let ProjectData = document.createElement('div')
+      let featureImage = document.createElement('img')
+      let hr = document.createElement('hr')
+      let title = document.createElement('h1')
+      let button;
+      if(project.name !== null){
+        name.innerText = project.name;
+        name.classList.add('h2-dark')
+        ProjectData.appendChild(name);
+      }
+      if(project.description !== null){
+        description.innerText = project.description;
+        description.classList.add('p-dark');
+        ProjectData.appendChild(description)
+      }
+      if(project.technologies !== null && Array.isArray(project.technologies)){
+        project.technologies.forEach((tech) => {
+        let techLi = document.createElement('li');
+        techLi.innerText = tech;
+        technologies.appendChild(techLi);
+        });
+      }
+      if(featureImage !== null){
+        featureImage.src = project.featuredImage
+        ImageHolder.appendChild(featureImage)
+      }
+      if (project.button){
+        button = document.createElement('button')
+        button.classList.add('btn')
+        button.innerText = 'See Project'
+        button.id = project.id
+        button.addEventListener('click',()=>{loadModals(project)})
+      }
+      title.innerText = 'My Recent Works'
+
+      //Add classes to Elements
+      ProjectContainer.classList.add('sec-1')
+      ImageHolder.classList.add('img')
+      ProjectData.classList.add('description')
+      ProjectContainer.classList.add('Recent-Project')
+      ProjectCard.classList.add('card-1')
+      title.classList.add('h2-dark')
+      featureImage.classList.add('poster')
+      technologies.classList.add('ProjectTechs')
+      name.classList.add('h3-dark')
+
+      //Append Elements
+      title.appendChild(hr)
+      ProjectData.appendChild(technologies)
+      ProjectData.appendChild(button)
+      ProjectCard.appendChild(ImageHolder)
+      ProjectCard.appendChild(ProjectData)
+      ProjectContainer.appendChild(title)
+      ProjectContainer.appendChild(ProjectCard)
+      MainContainer.appendChild(ProjectContainer)
+
+
+    }
+    else {
+
+      if(project.name !== null){
+        name.innerText = project.name;
+        name.classList.add('h3-light')
+        ProjectContainer.appendChild(name);
+      }
+      if(project.description !== null){
+        description.innerText = project.description;
+        description.classList.add('p-light')
+        ProjectContainer.appendChild(description);
+      }
+      if(project.technologies !== null && Array.isArray(project.technologies)){
+        project.technologies.forEach((tech) => {
+        let techLi = document.createElement('li');
+        techLi.innerText = tech;
+        technologies.appendChild(techLi);
+        });
+      }
+      //Add Classes to Elements
+      ProjectContainer.classList.add('previous-Projects')
+
+      //Append Elements in Order
+      if(technologies.querySelector('li') !== null){
+        ProjectContainer.appendChild(technologies)
+        technologies.classList.add('ProjectTechs')
+      }
+      MainContainer.appendChild(ProjectContainer);
+
+      //Add Button Conditionally
+
+      if (project.button){
+        let button = document.createElement('button')
+        button.classList.add('btn')
+        button.innerText = 'See Project'
+        ProjectContainer.appendChild(button)
+        button.id = project.id
+        button.addEventListener('click',()=>{loadModals(project)})
+      }else {
+        ProjectContainer.id = project.id
+        ProjectContainer.addEventListener('click',()=>{loadModals(project)})
+        ProjectContainer.style.cursor = 'pointer'
+      }
+      
+    }
+
+    //Add bg image
+    ProjectContainer.style.backgroundImage = `url("${project.backgroundImage}")`;
+  }
+}
+
+export {LoadProjects, DeskProjects, MobileProjects,DesktopWidth}
   
