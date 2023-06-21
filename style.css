@@ -420,9 +420,9 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     background-color: white;
-    width: 90%;
-    height: 90%;
-    padding: 4% 10%;
+    width: 95%;
+    height: 95%;
+    padding: 2% 4%;
     display: flex;
     flex-direction: column;
   }
@@ -436,7 +436,12 @@
   }
 
   #modal-title {
-    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
   }
 
   #modal-header #modal-close {
@@ -446,6 +451,8 @@
     background: none;
     font-size: large;
     font-weight: bold;
+    margin: 0;
+    color: #67798E;
   }
 
   #modal-body {
@@ -468,27 +475,35 @@
   }
 
   #modal-poster {
-    min-width: 220px;
+    width: 311px;
+    height: 220px;
   }
 
   #modal-icons {
     display: flex;
+    align-items: center;
+    gap: 24px;
     list-style: none;
-    gap: 5%;
-    font-size: 2vw;
-    font-weight: bold;
-    padding: 0;
-    margin-top: auto;
+    margin-top: 0%;
+    padding-left: 0;
   }
 
   #modal-icons li {
-    border: solid 0.5px grey;
-    padding: 2% 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 8px;
+    border: 1px solid #979493;
   }
 
   #modal-body p {
-    font-size: 2vh;
-    margin-bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   #modal-buttons {
@@ -499,9 +514,15 @@
   }
 
   #modal-body .btn {
-    font-size: 80%;
     display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
     align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
   }
 
   #overlay {
@@ -867,21 +888,22 @@
     background-color: white;
     width: 90%;
     height: 90%;
-    padding: 4%;
+    padding: 0 4% 4% 4%;
     display: flex;
     flex-direction: column;
   }
 
   #modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    gap: 0;
+    margin-top: 0;
   }
 
   #modal-title {
-    font-size: 3vw;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
   }
 
   #modal-header #modal-close {
@@ -896,14 +918,10 @@
   #modal-body {
     display: flex;
     flex-direction: row;
-    gap: 0;
+    gap: 0%;
     padding: 0;
     margin-top: 0;
     height: 100%;
-  }
-
-  #modal-content {
-    width: 47%;
   }
 
   #modal-half1 {
@@ -914,13 +932,13 @@
   #modal-half2 {
     display: flex;
     flex-direction: column;
-    padding-top: 3vh;
-    width: 50%;
-    margin-left: 5%;
+    padding-top: 6vh;
+    margin-left: 2%;
   }
 
   #modal-poster {
-    width: 100%;
+    width: 659px;
+    height: 448px;
   }
 
   #modal-icons {
@@ -940,19 +958,27 @@
   }
 
   #modal-body p {
-    font-size: 1.8vw;
-    margin-bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #344563;
   }
 
   #modal-buttons {
     display: flex;
     gap: 5%;
     margin-top: auto;
-    margin-bottom: 11vh;
+    margin-bottom: 0;
   }
 
   #modal-body .btn {
-    font-size: 2vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
   }
 
   #overlay {

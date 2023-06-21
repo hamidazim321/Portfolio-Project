@@ -187,39 +187,39 @@ function loadModals(Object) {
   const Modal = document.querySelector('#modal');
   const modalTitle = document.querySelector('#modal-title');
   const titleText = modalTitle.textContent;
-  const ModalList = document.querySelector('#modal-icons');
-  const listHTML = ModalList.innerHTML;
-  const ModalPoster = document.querySelector('#modal-poster');
-  const posterSRC = ModalPoster.src;
-  const ModalDescription = document.querySelector('#Modal-Description');
-  const descripText = ModalDescription.textContent;
+  // const ModalList = document.querySelector('#modal-icons');
+  // const listHTML = ModalList.innerHTML;
+  // const ModalPoster = document.querySelector('#modal-poster');
+  // const posterSRC = ModalPoster.src;
+  // const ModalDescription = document.querySelector('#Modal-Description');
+  // const descripText = ModalDescription.textContent;
   const CloseModal = document.querySelector('#modal-close');
   const BlurBackground = document.querySelector('#overlay');
 
-  if (Object.name !== null) {
-    modalTitle.innerText = Object.name;
-  }
-  if (Object.featuredImage !== null) {
-    ModalPoster.src = Object.featuredImage;
-  }
-  if (Object.technologies !== null && Array.isArray(Object.technologies)) {
-    ModalList.innerHTML = '';
-    Object.technologies.forEach((tech) => {
-      const techLi = document.createElement('li');
-      techLi.innerText = tech;
-      ModalList.appendChild(techLi);
-    });
-  }
-  if (Object.description !== null) {
-    ModalDescription.innerText = Object.description;
-  }
+  // if (Object.name !== null) {
+  //   modalTitle.innerText = Object.name;
+  // }
+  // if (Object.featuredImage !== null) {
+  //   ModalPoster.src = Object.featuredImage;
+  // }
+  // if (Object.technologies !== null && Array.isArray(Object.technologies)) {
+  //   ModalList.innerHTML = '';
+  //   Object.technologies.forEach((tech) => {
+  //     const techLi = document.createElement('li');
+  //     techLi.innerText = tech;
+  //     ModalList.appendChild(techLi);
+  //   });
+  // }
+  // if (Object.description !== null) {
+  //   ModalDescription.innerText = Object.description;
+  // }
   CloseModal.addEventListener('click', () => {
     Modal.style.visibility = 'hidden';
     BlurBackground.style.visibility = 'hidden';
     modalTitle.innerText = titleText;
-    ModalPoster.src = posterSRC;
-    ModalList.innerHTML = listHTML;
-    ModalDescription.innerText = descripText;
+    // ModalPoster.src = posterSRC;
+    // ModalList.innerHTML = listHTML;
+    // ModalDescription.innerText = descripText;
   });
   Modal.style.visibility = 'visible';
   BlurBackground.style.visibility = 'visible';
