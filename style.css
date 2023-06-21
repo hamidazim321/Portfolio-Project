@@ -436,7 +436,7 @@
   }
 
   #modal-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -452,7 +452,7 @@
     font-size: large;
     font-weight: bold;
     margin: 0;
-    color: #67798E;
+    color: #67798e;
   }
 
   #modal-body {
@@ -489,7 +489,7 @@
   }
 
   #modal-icons li {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -499,7 +499,7 @@
   }
 
   #modal-body p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -515,7 +515,7 @@
 
   #modal-body .btn {
     display: flex;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -898,12 +898,12 @@
   }
 
   #modal-title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   #modal-header #modal-close {
@@ -958,7 +958,7 @@
   }
 
   #modal-body p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -974,7 +974,7 @@
   }
 
   #modal-body .btn {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
