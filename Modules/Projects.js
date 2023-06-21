@@ -225,3 +225,14 @@ function loadModals(id,Object) {
   BlurBackground.style.visibility = 'visible'
 
 }
+
+function LoadProjects (){
+  let MainContainer = document.querySelector('#Portfolio')
+  let Projects;
+  if (window.innerWidth < DesktopWidth){
+    Projects = MobileProjects
+  }
+  else{
+    Projects = DeskProjects
+  }
+  
