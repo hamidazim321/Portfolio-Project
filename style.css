@@ -91,18 +91,6 @@
     gap: 2%;
   }
 
-  .Recent-Project ul li {
-    border: solid 0.5px grey;
-    padding: 3%;
-    font-size: small;
-    color: black;
-  }
-
-  .poster {
-    margin-top: 4vh;
-    width: 75vw;
-  }
-
   .dark li {
     margin: 0 4%;
   }
@@ -117,15 +105,32 @@
     padding-bottom: 2vh;
   }
 
-  .cent-list {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-
   .cent-list li {
     list-style: none;
     padding: 0;
     margin-left: 0;
+  }
+
+  .ProjectTechs li {
+    background: rgba(255, 255, 255, 0.24);
+    padding: 3%;
+  }
+
+  .Recent-Project ul li {
+    border: solid 0.5px grey;
+    padding: 3%;
+    font-size: small;
+    color: black;
+  }
+
+  .poster {
+    margin-top: 4vh;
+    width: 75vw;
+  }
+
+  .cent-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .ProjectTechs {
@@ -139,11 +144,6 @@
     font-size: larger;
     font-weight: 300;
     color: white;
-  }
-
-  .ProjectTechs li {
-    background: rgba(255, 255, 255, 0.24);
-    padding: 3%;
   }
 
   .h2-dark {
@@ -207,7 +207,6 @@
     width: 77vw;
     margin-top: 7vh;
   }
-
 
   .previous-Projects button {
     width: 100%;
@@ -418,7 +417,7 @@
     visibility: hidden;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
     background-color: white;
     width: 90%;
@@ -427,6 +426,7 @@
     display: flex;
     flex-direction: column;
   }
+
   #modal-header {
     display: flex;
     justify-content: space-between;
@@ -447,6 +447,7 @@
     font-size: large;
     font-weight: bold;
   }
+
   #modal-body {
     display: flex;
     flex-direction: column;
@@ -464,12 +465,10 @@
   #modal-half2 {
     display: flex;
     flex-direction: column;
-    
   }
 
   #modal-poster {
     min-width: 220px;
-    
   }
 
   #modal-icons {
@@ -481,6 +480,7 @@
     padding: 0;
     margin-top: auto;
   }
+
   #modal-icons li {
     border: solid 0.5px grey;
     padding: 2% 4%;
@@ -506,7 +506,7 @@
 
   #overlay {
     position: fixed;
-    background-color:rgb(36, 34, 34);
+    background-color: rgb(36, 34, 34);
     top: 0;
     bottom: 0;
     right: 0;
@@ -515,8 +515,8 @@
     z-index: 5;
     visibility: hidden;
   }
- 
 }
+
 @media only screen and (min-width: 767px) {
   #ToolBar {
     display: flex;
@@ -860,10 +860,9 @@
 
   #modal {
     position: fixed;
-    display: none;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
     background-color: white;
     width: 90%;
@@ -872,6 +871,7 @@
     display: flex;
     flex-direction: column;
   }
+
   #modal-header {
     display: flex;
     justify-content: space-between;
@@ -892,6 +892,7 @@
     font-size: 3vw;
     font-weight: bold;
   }
+
   #modal-body {
     display: flex;
     flex-direction: row;
@@ -916,7 +917,6 @@
     padding-top: 3vh;
     width: 50%;
     margin-left: 5%;
-    
   }
 
   #modal-poster {
@@ -932,8 +932,8 @@
     padding: 0;
     margin-top: 0;
     margin-bottom: 2%;
-
   }
+
   #modal-icons li {
     border: solid 0.5px grey;
     padding: 2% 4%;
@@ -952,12 +952,12 @@
   }
 
   #modal-body .btn {
-    font-size:2vw;
+    font-size: 2vw;
   }
 
   #overlay {
     position: fixed;
-    background-color:rgb(36, 34, 34);
+    background-color: rgb(36, 34, 34);
     top: 0;
     bottom: 0;
     right: 0;
@@ -966,4 +966,3 @@
     z-index: 5;
   }
 }
-
