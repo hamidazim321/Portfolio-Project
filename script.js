@@ -5,6 +5,7 @@ import { LoadProjects } from './Modules/Projects.js';
 import ValidateForm from './Modules/Validations.js';
 import { UpdateForm, updateStorage } from './Modules/LocalStorage.js';
 
+
 window.addEventListener('resize', () => {
   setTimeout(DesctopToolBar(), 100);
   ScrollSpy();
@@ -21,3 +22,4 @@ window.addEventListener('load', () => {
   setTimeout(200, updateStorage());
   setTimeout(200, UpdateForm());
 });
+
