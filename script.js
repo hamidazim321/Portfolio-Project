@@ -16,5 +16,5 @@ window.addEventListener('load', () => {
   ScrollSpy();
   LoadProjects();
   AddMenuEvent();
-  ValidateForm()
+  ValidateForm();
 });
