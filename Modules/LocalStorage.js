@@ -49,3 +49,15 @@ function populateStorage() {
   ));
   setData();
 }
+
+function updateStorage(){
+  if (storageAvailable("localStorage")) {
+    if (!localStorage.getItem("formData")) {
+      populateStorage();
+    } else {
+      setData();
+    }
+  } 
+}
+
+export {UpdateForm, updateStorage}
