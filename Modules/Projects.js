@@ -200,6 +200,7 @@ function loadModals() {
 
 function LoadProjects() {
   const MainContainer = document.querySelector('#Portfolio');
+  MainContainer.innerHTML = '';
   let Projects;
   let ModalTitle;
   if (window.innerWidth < DesktopWidth) {

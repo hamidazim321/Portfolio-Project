@@ -12,12 +12,23 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<header id="ToolBar">
-		<a href="works"><img src="Images\Logo Placeholder.svg" alt="Logo" id="logo-placeholder"></a>
+	<nav id="ToolBar">
+		<!-- <a href="works"><img src="Images\Logo Placeholder.svg" alt="Logo" id="logo-placeholder"></a>
 		<nav>
 			<a href="#" id="tool-Button"><img src="Images\MenuIcon.svg" alt="Menu Icon"></a>
-		</nav>
-	</header>
+		</nav> -->
+		<div id="logo-placeholder"><img src="Images\Logo Placeholder.svg" alt="Logo"></div>
+		<a href="#" id="tool-button"><img src="Images/MenuIcon.svg" alt="Menu Icon"></a>
+		<div class="nav-items hideOnMobile" id="nav-list">
+			<ul class="nav-links" id="menu-options">
+				<li id="close-menu" class="hideOnDesktop"><button>&times;</button></li>
+				<li class="nav-link"><a href="#Portfolio">Portfolio</a></li>
+				<li class="nav-link"><a href="#About">About</a></li>
+				<li class="nav-link"><a href="#contact">Contacts</a></li>
+				<li class="hideOnMobile"><img src="Images\Icon - Mail.png"></li>
+			</ul>
+		</div>
+	</nav>
 	<main class="main">
 		<section class="Intro">
 			<div>

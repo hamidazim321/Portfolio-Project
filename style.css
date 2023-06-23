@@ -21,6 +21,68 @@
     z-index: 1;
   }
 
+  #tool-button {
+    margin-left: auto;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    background-color: #1c1a19;
+    padding: 10%;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 5vw;
+    font-weight: 900;
+    margin-bottom: 8%;
+    border-bottom: solid 2px white;
+    padding-bottom: 1vh;
+    width: 100%;
+    display: block;
+  }
+
+  .nav-links button {
+    color: white;
+    text-decoration: none;
+    font-size: 7vw;
+    margin-bottom: 5%;
+    border: none;
+    background: none;
+    display: block;
+  }
+
+  #close-menu {
+    color: white;
+    font-size: 9vw;
+    margin-left: auto;
+    font-weight: 900;
+  }
+
+  #close-menu a {
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .hideOnDesktop {
+    display: block;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
@@ -395,23 +457,6 @@
     justify-content: center;
   }
 
-  #Menu {
-    background-color: #1c1a19;
-    padding: 10vh 10vw;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  #Menu a {
-    color: white;
-    text-decoration: none;
-  }
-
-  #closeMenu {
-    align-self: flex-end;
-  }
-
   #modal {
     position: fixed;
     visibility: hidden;
@@ -546,20 +591,48 @@
     padding: 0.5em 3em;
   }
 
-  .Descnavs {
-    color: white;
-    font-size: larger;
-    list-style: none;
-    display: flex;
-    gap: 2vw;
-    margin: 0;
-    transition: 3s;
+  #tool-button {
+    display: none;
   }
 
-  .Descnavs li a {
+  .nav-links {
     color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 0;
+    align-items: center;
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .nav-links a {
+    color: white;
+    font-size: larger;
     text-decoration: none;
-    transition: 3s;
+    border-bottom: none;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
+
+  .nav-links button {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    border-bottom: none;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+  }
+
+  .hideOnDesktop {
+    display: none;
+  }
+
+  .hideOnMobile {
+    display: block;
   }
 
   .Intro {
