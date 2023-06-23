@@ -20,6 +20,34 @@
     position: fixed;
     z-index: 1;
   }
+  #tool-button {
+    margin-left: auto;
+
+  }
+
+  .nav-links {
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    margin: 0;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    background-color: #1c1a19;
+    /* display: none; */
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
 
   .main {
     display: flex;
@@ -394,7 +422,7 @@
   .dark {
     justify-content: center;
   }
-
+/* 
   #Menu {
     background-color: #1c1a19;
     padding: 10vh 10vw;
@@ -410,7 +438,7 @@
 
   #closeMenu {
     align-self: flex-end;
-  }
+  } */
 
   #modal {
     position: fixed;
@@ -544,6 +572,27 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 3em;
+  }
+
+  #tool-button {
+    display: none;
+  }
+  .nav-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 0;
+    align-items: center;
+    position: static;
+    background: none ;
+  }
+
+  .nav-links a {
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
   }
 
   .Descnavs {
