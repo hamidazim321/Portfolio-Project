@@ -7,14 +7,14 @@ import { UpdateForm, updateStorage } from './Modules/LocalStorage.js';
 window.addEventListener('resize', () => {
   ScrollSpy();
   LoadProjects();
-  LoadMenu()
+  LoadMenu();
 });
 
 window.addEventListener('load', () => {
   // setTimeout(DesctopToolBar(), 100);
   ScrollSpy();
   LoadProjects();
-  LoadMenu()
+  LoadMenu();
   ValidateForm();
   setTimeout(200, updateStorage());
   setTimeout(200, UpdateForm());

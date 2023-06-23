@@ -20,9 +20,9 @@
     position: fixed;
     z-index: 1;
   }
+
   #tool-button {
     margin-left: auto;
-
   }
 
   .nav-links {
@@ -62,7 +62,6 @@
     background: none;
     display: block;
   }
-
 
   #close-menu {
     color: white;
@@ -457,23 +456,6 @@
   .dark {
     justify-content: center;
   }
-/* 
-  #Menu {
-    background-color: #1c1a19;
-    padding: 10vh 10vw;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  #Menu a {
-    color: white;
-    text-decoration: none;
-  }
-
-  #closeMenu {
-    align-self: flex-end;
-  } */
 
   #modal {
     position: fixed;
@@ -612,6 +594,7 @@
   #tool-button {
     display: none;
   }
+
   .nav-links {
     color: white;
     list-style: none;
@@ -621,7 +604,7 @@
     margin: 0;
     align-items: center;
     position: static;
-    background: none ;
+    background: none;
     padding: 0;
   }
 
@@ -651,22 +634,6 @@
   .hideOnMobile {
     display: block;
   }
-
-  /* .Descnavs {
-    color: white;
-    font-size: larger;
-    list-style: none;
-    display: flex;
-    gap: 2vw;
-    margin: 0;
-    transition: 3s;
-  }
-
-  .Descnavs li a {
-    color: white;
-    text-decoration: none;
-    transition: 3s;
-  } */
 
   .Intro {
     display: flex;
