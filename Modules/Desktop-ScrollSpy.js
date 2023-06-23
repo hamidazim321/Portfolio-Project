@@ -17,7 +17,7 @@ function buildThresholdList() {
 
 function ScrollSpy() {
   if (window.innerWidth > 767) {
-    Navlinks = document.querySelectorAll('.Descnavs li a');
+    Navlinks = document.querySelectorAll('.nav-link a');
 
     observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
