@@ -26,14 +26,11 @@
   }
 
   .nav-links {
-    font-size: larger;
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 2vw;
     margin: 0;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,12 +38,37 @@
     bottom: 0;
     z-index: 20;
     background-color: #1c1a19;
-    /* display: none; */
+    padding: 15%;
   }
 
   .nav-links a {
     color: white;
     text-decoration: none;
+    font-size: 7vw;
+    margin-bottom: 5%;
+    border-bottom: solid 2px white;
+    width: 100%;
+    display: block;
+  }
+
+  #close-menu {
+    color: white;
+    font-size: 9vw;
+    margin-left: auto;
+    font-weight: 900;
+  }
+
+  #close-menu a {
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .hideOnDesktop {
+    display: block;
   }
 
   .main {
@@ -587,15 +609,25 @@
     align-items: center;
     position: static;
     background: none ;
+    padding: 0;
   }
 
   .nav-links a {
     color: white;
     font-size: 2vw;
     text-decoration: none;
+    border-bottom: none;
   }
 
-  .Descnavs {
+  .hideOnDesktop {
+    display: none;
+  }
+
+  .hideOnMobile {
+    display: block;
+  }
+
+  /* .Descnavs {
     color: white;
     font-size: larger;
     list-style: none;
@@ -609,7 +641,7 @@
     color: white;
     text-decoration: none;
     transition: 3s;
-  }
+  } */
 
   .Intro {
     display: flex;
