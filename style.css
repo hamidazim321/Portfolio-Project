@@ -558,6 +558,10 @@
     margin-bottom: 0;
   }
 
+  #modal-buttons a {
+    text-decoration: none;
+  }
+
   #modal-body .btn {
     display: flex;
     font-family: 'Inter', sans-serif;

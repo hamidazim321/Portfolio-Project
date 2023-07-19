@@ -3,18 +3,19 @@ const DeskProjects = [
   {
     id: 'p1',
     recent: true,
-    name: 'Multi-Post Stories',
-    description: `A daily selection of privately personalized
-    reads; no accounts or sign-ups required.
-    has been the industry's standard dummy
-    text ever since the 1500s, when an
-    unknown printer took a standard dummy
-    text.`,
-    featuredImage: 'Works-Images/Img Placeholder.png',
+    name: 'To-Do list App',
+    description: `To-do list is a handy app that lets you organize and track your daily tasks. You can create, 
+    edit, delete, and mark tasks as complete with ease. You can also remove all the completed tasks with one 
+    click. Your tasks are saved in the local storage, so they are always there when you need them. To-do list 
+    helps you manage your time and reach your goals.`,
+    modalDescription: `To-do list is a web app that showcases the power of HTML, CSS, and JavaScript. 
+    It leverages Webpack as a module bundler and ES6 modules to structure the code in a modular way. It
+    also enhances the user interface with font awesome library, which provides a variety of icons to choose from.`,
+    featuredImage: 'Projects-Images/To-Do List SC1.png',
     backgroundImage: null,
     technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 1',
-    linkTosource: 'link 1',
+    linkTolive: 'https://hamidazim321.github.io/To-do-list/dist/?',
+    linkTosource: 'https://github.com/hamidazim321/To-do-list',
     button: true,
   },
   {
@@ -24,8 +25,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Background-Images/Img Placeholder (1).png',
     technologies: null,
-    linkTolive: 'link 1',
-    linkTosource: 'link 1',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
   {
@@ -36,8 +37,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Background-Images/Center-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 2',
-    linkTosource: 'link 2',
+    linkTolive: '',
+    linkTosource: '',
     button: false,
   },
   {
@@ -48,8 +49,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Background-Images/last-card-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 3',
-    linkTosource: 'link 3',
+    linkTolive: '',
+    linkTosource: '',
     button: false,
   },
   {
@@ -60,8 +61,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 4',
-    linkTosource: 'link 4',
+    linkTolive: '',
+    linkTosource: '',
     button: false,
   },
   {
@@ -72,8 +73,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Background-Images/Center-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 5',
-    linkTosource: 'link 5',
+    linkTolive: '',
+    linkTosource: '',
     button: false,
   },
   {
@@ -84,8 +85,8 @@ const DeskProjects = [
     featuredImage: null,
     backgroundImage: 'Background-Images/last-card-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 5',
-    linkTosource: 'link 5',
+    linkTolive: '',
+    linkTosource: '',
     button: false,
   },
 ];
@@ -94,18 +95,21 @@ const MobileProjects = [
   {
     id: 'p1',
     recent: true,
-    name: 'Multi-Post Stories',
+    name: 'To-Do list App',
     description: `A daily selection of privately personalized
     reads; no accounts or sign-ups required.
     has been the industry's standard dummy
     text ever since the 1500s, when an
     unknown printer took a standard dummy
     text.`,
-    featuredImage: 'Works-Images/Img Placeholder.png',
+    modalDescription: `To-do list is a web app that showcases the power of HTML, CSS, and JavaScript. 
+    It leverages Webpack as a module bundler and ES6 modules to structure the code in a modular way. It
+    also enhances the user interface with font awesome library, which provides a variety of icons to choose from.`,
+    featuredImage: 'Projects-Images/To-Do List SC1(mobile).png',
     backgroundImage: null,
     technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 1',
-    linkTosource: 'link 1',
+    linkTolive: 'https://hamidazim321.github.io/To-do-list/dist/?',
+    linkTosource: 'https://github.com/hamidazim321/To-do-list',
     button: true,
   },
   {
@@ -116,8 +120,8 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 1',
-    linkTosource: 'link 1',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
 
   },
@@ -129,8 +133,8 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 2',
-    linkTosource: 'link 2',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
   {
@@ -141,8 +145,8 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 3',
-    linkTosource: 'link 3',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
   {
@@ -153,8 +157,8 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 4',
-    linkTosource: 'link 4',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
   {
@@ -165,8 +169,8 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'link 5',
-    linkTosource: 'link 5',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
   {
@@ -177,25 +181,52 @@ const MobileProjects = [
     featuredImage: null,
     backgroundImage: 'Works-Images/sec-2-bg.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    linkTolive: 'Works-Images/sec-2-bg.png',
-    linkTosource: 'link 5',
+    linkTolive: '',
+    linkTosource: '',
     button: true,
   },
 ];
 
-function loadModals() {
+function loadModals(project) {
   const Modal = document.querySelector('#modal');
-  const modalTitle = document.querySelector('#modal-title');
-  const titleText = modalTitle.textContent;
-  const CloseModal = document.querySelector('#modal-close');
+  const modalTitle = Modal.querySelector('#modal-title');
+  const modalPoster = Modal.querySelector('#modal-poster');
+  const CloseModal = Modal.querySelector('#modal-close');
   const BlurBackground = document.querySelector('#overlay');
+  const modalDesctription = Modal.querySelector('#Modal-Description');
+  const modalButtons = [...Modal.querySelectorAll('#modal-buttons button')];
+
+  const defaultDescription = modalDesctription.textContent;
+  const posterSRC = modalPoster.src;
   CloseModal.addEventListener('click', () => {
     Modal.style.visibility = 'hidden';
     BlurBackground.style.visibility = 'hidden';
-    modalTitle.innerText = titleText;
+    modalPoster.src = posterSRC;
+    modalDesctription.textContent = defaultDescription;
   });
+
   Modal.style.visibility = 'visible';
   BlurBackground.style.visibility = 'visible';
+  modalTitle.innerText = project.name;
+  if (project.featuredImage !== null) {
+    modalPoster.src = project.featuredImage;
+  }
+  if (project.modalDescription) {
+    modalDesctription.textContent = project.modalDescription;
+  }
+
+  modalButtons.forEach((button) => {
+    if (project.linkTolive !== '') {
+      button.addEventListener('click', () => {
+        if (button.id === 'see-live') {
+          window.open(project.linkTolive, '_blank');
+        }
+        if (button.id === 'see-source') {
+          window.open(project.linkTosource, '_blank');
+        }
+      });
+    }
+  });
 }
 
 function LoadProjects() {
@@ -233,7 +264,7 @@ function LoadProjects() {
         ProjectData.appendChild(name);
       }
       if (project.description !== null) {
-        description.innerText = project.description;
+        description.innerText = project.description.replace(/[\n\r]/g, '');
         description.classList.add('p-dark');
         ProjectData.appendChild(description);
       }
@@ -253,7 +284,7 @@ function LoadProjects() {
         button.classList.add('btn');
         button.innerText = 'See Project';
         button.id = project.id;
-        button.addEventListener('click', () => { loadModals(); });
+        button.addEventListener('click', () => { loadModals(project); });
       }
       title.innerText = 'My Recent Works';
 
@@ -313,10 +344,10 @@ function LoadProjects() {
         button.innerText = 'See Project';
         ProjectContainer.appendChild(button);
         button.id = project.id;
-        button.addEventListener('click', () => { loadModals(); });
+        button.addEventListener('click', () => { loadModals(project); });
       } else {
         ProjectContainer.id = project.id;
-        ProjectContainer.addEventListener('click', () => { loadModals(); });
+        ProjectContainer.addEventListener('click', () => { loadModals(project); });
         ProjectContainer.style.cursor = 'pointer';
       }
     }
